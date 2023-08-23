@@ -1,0 +1,17 @@
+.button {
+    display: inline-block;
+    min-width: 110px;
+    min-height: 35px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 14px;
+    color: #ffffff;
+    background: var(--c-primary);
+    transition: background .2s ease;
+    border: 0;
+  }
+  
+  .button:hover {
+    background: var(--c-primary-hover);
+  }

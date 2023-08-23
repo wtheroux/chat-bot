@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    /* Linting */
+    "strict": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@app/*": [
+        "src/app/*"
+      ],
+      "@features/*": [
+        "src/features/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@widgets/*": [
+        "src/widgets/*"
+      ],
+      "@/*": [
+        "src/*"
+      ],
+      "@shared/*": [
+        "src/shared/*"
+      ],
+      "@ui/*": [
+        "src/shared/ui/*"
+      ],
+      "@api/*": [
+        "src/shared/api/*"
+      ],
+      "@generateM/*": [
+        "src/features/generateM/*"
+      ],
+      "@generate-message/*": [
+        "src/features/generate-message/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

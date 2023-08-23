@@ -1,0 +1,10 @@
+/* Body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    background: var(--c-background);
+  
+    transition: ease .2s;
+  }

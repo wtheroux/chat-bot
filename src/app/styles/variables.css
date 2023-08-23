@@ -1,0 +1,36 @@
+/* Variables */
+
+/* Light */
+
+:root {
+    color-scheme: light;
+    --c-background: #ddddde;
+  
+    --c-primary-hover: #5dbae9;
+    --c-primary: #368ac4;
+    --c-text: #617d98;
+    --c-text-2: #063251;
+  
+    --c-gray-1: #f3f4f6;
+    --c-gray-2: #d3d4d6;
+    --c-gray-3: #ddddde;
+    --c-gray-4: #f8f8f8;
+  }
+  
+  /* Dark */
+  
+  :root.dark {
+    color-scheme: dark;
+  
+    --c-background: #2E2E2F;
+  
+    --c-primary-hover: #5dbae9;
+    --c-primary: #368ac4;
+    --c-text: #9CC9F3;
+    --c-text-2: #AEDAF9;
+  
+    --c-gray-1: #353739;
+    --c-gray-2: #262626;
+    --c-gray-3: #444444;
+    --c-gray-4: #1e1e1e;
+  }
